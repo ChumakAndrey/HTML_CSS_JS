@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background: darkcyan;
+}
+
+#gameZone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border: 1px solid green;
+    width: 500px;
+    height: 500px;
+    background: gainsboro;
+}
+
+#gameZone td {
+    border: solid 1px green;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    font-size: 120px;
+}
